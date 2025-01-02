@@ -1,0 +1,13 @@
+#include<stdio.h>  
+void main()
+{
+   int base,expo; 
+   scanf("%d %d",&base,&expo); 
+   int i,power=1; 
+   for(i=1 ; i<=expo ; i++)
+   {   
+        power = power*base;     
+   }
+   printf("%d ",power); 
+}
+
